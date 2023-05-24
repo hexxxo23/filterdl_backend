@@ -1,0 +1,12 @@
+GET http://localhost:5000/fdl/users
+
+###
+POST http://localhost:5000/fdl/register
+Content-Type: application/json
+
+{
+    "username" : "luth231",
+    "email": "Luthfisangaji13@gmail.com",
+    "password": "Luth2301",
+    "confPassword": "Luth2301"
+}
