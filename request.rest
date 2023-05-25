@@ -1,12 +1,25 @@
 GET http://localhost:5000/fdl/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoibHV0aDIzMSIsImVtYWlsIjoiTHV0aGZpc2FuZ2FqaTEzQGdtYWlsLmNvbSIsImlhdCI6MTY4NTAwNjM2MywiZXhwIjoxNjg1MDA2MzgzfQ.gdaa93-9pigr8YAqmVLcidEvKHkbe0bp_lQJg4fFmc4
 
 ###
 POST http://localhost:5000/fdl/register
 Content-Type: application/json
 
 {
-    "username" : "luth231",
-    "email": "Luthfisangaji13@gmail.com",
+    "username" : "luth2312",
+    "email": "Luthfisangaji123@gmail.com",
     "password": "Luth2301",
     "confPassword": "Luth2301"
 }
+
+###
+POST http://localhost:5000/fdl/login
+Content-Type: application/json
+
+{
+    "username" : "luth231",
+    "password" : "Luth2301"
+}
+
+###
+GET http://localhost:5000/fdl/token
